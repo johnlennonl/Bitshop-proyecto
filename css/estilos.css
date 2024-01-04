@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+body{
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Logo del Navbar*/
+.logoNav {
+    width: 130px;
+}
+
+/* Carousel*/
+
+.carousel-header {
+    margin-top: 120px;
+}
+
+
+.h2main {
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+/* card main */
+
+.cardMain {
+    border-radius: 16px;
+    border: none;
+    background-color: transparent;
+}
+.subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.cardTitulo {
+    font-size: 2rem;
+    text-align: center;
+    color: #efefef;
+}
+.iconosText {
+    font-style: none;
+}
+
+
+/* FOOTER */
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+p{
+    font-size: 16px;
+    color: #efefef;
+}
+
+ 
+
+.textDecoracion {
+    color: aliceblue;
+    color: #efefef;
+}
+hr {
+    color: #efefef;
+}
+
+.cardShock {
+    width: 18rem;
+    margin: 6px;
+    background-color: transparent;
+    border: none;
+  
+}
+.imgShock {
+    border-radius: 10px;
+}
