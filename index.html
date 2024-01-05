@@ -4,56 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitshop Venezuela</title>
+    <!-- BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS-->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body class="container-color ">
-    <div class="containernav">
-     <nav class="navbar navbar-dark bg-black bg-gradient  navBitshop ">
-        <div class="container-fluid">
-          <img class="logoNav" src="img/bitshop (1).png" alt="logotipo">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark bg-black bg-gradient" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bienvenido👋🏻 </h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Informacion
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Contacto</a></li>
-                    <li><a class="dropdown-item" href="#">Ubicacion</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Valora nuestra pagina web</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-dark navbarcss">
+    <div class="container-fluid">
+      <img class="logoNav" src="img/bitshop (1).png" alt="logotipo">
+      <button class="navbar-toggler botonNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav  ms-auto ">
+          <a class="nav-link hoverNav" aria-current="page" href="#">Ropa Deportiva</a>
+          <a class="nav-link hoverNav " href="#">Suplementos</a>
+          <a class="nav-link hoverNav " href="#">Calzado</a>
+          <a class="nav-link hoverNav " href="#">Ayuda</a>
+          <a class="nav-link hoverNav " aria-disabled="true">Contacto</a>
         </div>
-      </nav>
+      </div>
     </div>
+  </nav>
+
+    <!-- CAROUSEL-->
 
       <header class=" carousel-header">
-        <div id="carouselExampleIndicators" class="carousel slide mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide ">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -80,6 +59,7 @@
             </button>
           </div>
         </header>
+        <!-- CARD LO MAS NUEVO-->
 
         <main class="container-fluid h2main">
             <h2 class="subtitulo"> Lo mejor y más nuevo </h2>
@@ -112,6 +92,8 @@
               <hr>
 
         </main>
+
+        <!-- CARD LO MAS VENDIDO-->
 
         <article class="container-fluid">
             <h2> Lo mas vendido </h2>
@@ -176,6 +158,8 @@
             </div>
             <hr>
         </article>
+
+        <!-- FOOTER -->
 
         <footer class="  bg-transparent text-dark pt-5 pb-4 "> 
             <div class="container text-center text-md-start ">
@@ -272,6 +256,12 @@
                 </div>
             </div>
         </footer>
+
+        
+        <!-- ICONO STICKY DE WS-->
+        <a href="https://api.whatsapp.com/send?phone=56982066091" class="linklogo"  > <img class="logoContacto" src="./Img/ico/whatsapp_logo_icon_147205.png" alt="logoContacto"> </a>
+
+        <!-- JAVASCRIPT BOOTSTRAP-->
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

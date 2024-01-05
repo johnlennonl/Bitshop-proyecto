@@ -10,13 +10,30 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 
 /* Logo del Navbar*/
 .logoNav {
-    width: 130px;
+    width: 150px;
 }
 
+.hoverNav {
+    color:rgb(209, 209, 209)
+}
+.hoverNav:hover{
+    color:#afa14b;
+}
+
+.navbarcss{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.botonNav{
+    color: #2c2c2c;
+    background-color: #7474746f;
+}
 /* Carousel*/
 
 .carousel-header {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 
@@ -55,6 +72,7 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
     font-style: none;
 }
 
+/* TEXTOS DE LA CARD LO MAS VENDIDO*/
 
 .cardName {
     font-size: 1.2rem;
@@ -126,4 +144,14 @@ hr {
 }
 .imgShock {
     border-radius: 10px;
+}
+
+/* Logo de WhatsApp*/
+
+.logoContacto {
+    width: 70px;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    position: fixed;
 }
