@@ -155,3 +155,27 @@ hr {
     cursor: pointer;
     position: fixed;
 }
+
+
+/* SEGUNDA PAGINA ROPA DEPORTIVA*/
+
+/* BOTONES*/
+.bottonCard {
+    background-color: #1c1c1c;
+    border: none;
+}
+.bottonCard:hover {
+    background-color: #efefef;
+    color: #1c1c1c;
+}
+
+/* Parrafo de Historias Relacionadas*/
+.pHistorias {
+    color: #1c1c1c;
+}
+
+.pHistorias:hover {
+    color: #d7d2cc;
+}
+
+
