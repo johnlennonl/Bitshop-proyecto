@@ -54,11 +54,7 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 .iconosText {
     font-style: none;
 }
-.cardShock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .cardName {
     font-size: 1.2rem;
@@ -81,7 +77,10 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
     font-size: 1.1rem;
     color: #2c2c2c;
     cursor: pointer;
+}
 
+.cardPrecio:hover{
+    color:#efefef;
 }
 
 .imgShock {
