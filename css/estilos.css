@@ -193,3 +193,13 @@ hr {
     cursor: pointer;
 
 }
+/* LOGO NIKE */
+.logoNike {
+    width: 100px;
+    cursor: pointer;
+}
+
+.logoNewbalance {
+    width: 150px;
+    cursor: pointer;
+}
