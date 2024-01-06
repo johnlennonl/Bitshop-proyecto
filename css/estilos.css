@@ -171,11 +171,25 @@ hr {
 
 /* Parrafo de Historias Relacionadas*/
 .pHistorias {
-    color: #1c1c1c;
+    color: #e4e4e4;
+    text-align: center;
 }
 
 .pHistorias:hover {
-    color: #d7d2cc;
+    color: #565656;
+    
 }
 
 
+/* SUPLEMENTOS*/
+
+.logoMuscletech {
+    width: 100px;
+    cursor: pointer;
+}
+
+.logoBsn {
+    width: 100px;
+    cursor: pointer;
+
+}
