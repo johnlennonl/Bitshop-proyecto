@@ -32,8 +32,8 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 }
 /* Carousel*/
 
-.carousel-header {
-    margin-top: 0px;
+.carouselHome {
+    cursor: pointer;
 }
 
 
@@ -175,7 +175,14 @@ hr {
     background-color: #efefef;
     color: #1c1c1c;
 }
-
+.btnMaracaibo {
+    color: #d7d2cc;
+    font-weight: bold;
+}
+.btnMaracaibo:hover{
+    color: #1c1c1c;
+    font-weight: bold;
+}
 /* Parrafo de Historias Relacionadas*/
 .pHistorias {
     color: #e4e4e4;
@@ -231,3 +238,21 @@ u {
 u:hover{
     color: #1c1c1c;
 }
+
+.borderForm {
+    border-radius: 8px;
+}
+
+.metodosPago {
+    font-weight: bold;
+    color: #d7d2cc;
+}
+.metodosPago:hover {
+    color: #2c2c2c;
+}
+
+.cardMapa {
+    background-color: transparent;
+}
+
+
