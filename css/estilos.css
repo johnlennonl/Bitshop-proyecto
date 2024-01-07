@@ -136,11 +136,18 @@ hr {
 }
 
 .cardShock {
-    width: 18rem;
+    width: 19rem;
     margin: 6px;
     background-color: transparent;
     border: none;
   
+}
+
+.cardShockh {
+    width: 19rem;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
 }
 .imgShock {
     border-radius: 10px;
@@ -202,4 +209,25 @@ hr {
 .logoNewbalance {
     width: 150px;
     cursor: pointer;
+}
+
+.terminos {
+    font-weight: bold;
+}
+em {
+    color: #1c1c1c;
+}
+em:hover{
+    color: #d7d2cc;
+}
+
+label {
+    font-weight: bold;
+}
+
+u {
+    cursor: pointer;
+}
+u:hover{
+    color: #1c1c1c;
 }
