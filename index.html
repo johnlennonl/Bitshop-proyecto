@@ -6,6 +6,14 @@
     <title>Bitshop Venezuela</title>
     <!-- BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ANIMATE-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS-->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -32,9 +40,9 @@
     <!-- CAROUSEL-->
 
       <header >
-        <div id="carouselExampleSlidesOnly" class="carousel slide carouselHome" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly  " class="carousel slide carouselHome" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active ">
               <img src="img/bannerRD/banner home.png" class="d-block w-100" alt="bannerHome">
             </div> 
           </div>
@@ -43,9 +51,9 @@
         </header>
         <!-- CARD LO MAS NUEVO-->
 
-        <main class="container-fluid h2main">
-            <h2 class="subtitulo mb-3"> Lo mejor y más nuevo </h2>
-            <div class="card-group">
+        <main class="container-fluid h2main ">
+            <h2 class="subtitulo mb-3 animate__animated animate__fadeInLeft  "> Lo mejor y más nuevo </h2>
+            <div class="card-group animate__animated animate__fadeInLeft  ">
                 <div class="card cardMain">
                   <a href="pages/calzado.html"><img src="img/card/1.png" class="card-img-top  imagenesCard" alt="calzado"></a>
                   <div class="card-body">
@@ -78,10 +86,10 @@
         <!-- CARD LO MAS VENDIDO-->
 
         
-        <article class="container-fluid ">
-          <h2 class="mb-3"> Tendencias de la Semana </h2>
-          <div class="row ">
-            <div class="card cardShockh mx-auto   ">
+        <article class="container-fluid   ">
+          <h2 class="mb-3 animate__animated animate__fadeInLeft "> Tendencias de la Semana </h2>
+          <div class="row  ">
+            <div class="card cardShockh mx-auto    ">
               <img src="img/Rdeportiva/jordan-essentials-sudadera-de-tejido-fleece-FzrsGM.png" class="card-img-top" alt="jordan">
               <div class="card-body imgShock ">
                 <h5 class="card-title cardName ">Jordan Essentials</h5>
@@ -150,8 +158,8 @@
             </div>
         </div>
 
-        <figure class="container mt-5 mb-5 border border-dark p-3 border-opacity-10 borderForm   ">
-          <h2 class="cardTitulo">¿Desea Recibir Informacion de Nuestro Productos?</h2>
+        <figure class="container mt-5 mb-5 border border-dark p-3 border-opacity-10 borderForm animate__animated animate__zoomIn ">
+          <h2 class="cardTitulo ">¿Desea Recibir Informacion de Nuestro Productos?</h2>
           <div class="row mt-5">
             <div class="col">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -275,6 +283,7 @@
             </div>
         </footer>
 
+
         
         <!-- ICONO STICKY DE WS-->
         <a href="https://api.whatsapp.com/send?phone=56982066091" class="linklogo"  > <img class="logoContacto" src="img/ico/whatsapp_logo_icon_147205.png" alt="logoContacto"> </a>
@@ -282,5 +291,11 @@
         <!-- JAVASCRIPT BOOTSTRAP-->
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+      <!--AOS-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

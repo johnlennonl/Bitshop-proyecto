@@ -34,6 +34,7 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 
 .carouselHome {
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 
@@ -52,7 +53,12 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
     border: none;
     background-color: transparent;
     cursor: pointer;
+    
+    cursor: pointer;
 }
+
+
+
 .subtitulo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -140,7 +146,12 @@ hr {
     margin: 6px;
     background-color: transparent;
     border: none;
+    transition: all 0.5s;
   
+}
+
+.cardShock:hover {
+    transform: scale(1.1);
 }
 
 .cardShockh {
@@ -148,6 +159,11 @@ hr {
     margin: 5px;
     background-color: transparent;
     border: none;
+    transition: all 0.5s;
+}
+
+.cardShockh:hover {
+    transform: scale(1.1);
 }
 .imgShock {
     border-radius: 10px;
