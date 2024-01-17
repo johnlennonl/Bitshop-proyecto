@@ -223,6 +223,11 @@ hr {
     cursor: pointer;
 
 }
+
+.logoC4 {
+    width: 200px;
+    cursor: pointer;
+}
 /* LOGO NIKE */
 .logoNike {
     width: 100px;
@@ -283,6 +288,20 @@ u:hover{
     cursor: pointer;
     animation: float 2s linear infinite;
 }
+
+/* BOTON DEL ACOORDEON*/
+.texBtn {
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.texBtn:hover {
+    color: #afa14b;
+}
+
+
 
 @keyframes float {
     0%, 100% {
